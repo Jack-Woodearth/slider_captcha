@@ -17,7 +17,7 @@ class SliderPanel extends StatelessWidget {
       children: [
         Container(
           child: image,
-          width: 500,
+          width: 400,
           height: 300,
         ),
         SliderAdapter(
