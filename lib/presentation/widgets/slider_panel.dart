@@ -15,7 +15,11 @@ class SliderPanel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        image,
+        Container(
+          child: image,
+          width: 500,
+          height: 300,
+        ),
         SliderAdapter(
           child: (x, y, percent) {
             return Positioned(
